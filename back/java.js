@@ -1,17 +1,9 @@
-function sorteio(){
+function welcome(){
 
-let num = Number(prompt('Digite um número de 1 a 10 e saiba se acertou'));
+let name = prompt("What's your name?");
 
-
-let sorte = (Math.floor(Math.random()* 10) + 1);
-
-if(num === sorte){
-    alert(`Parabéns, o número era: ${sorte}`);
-} else{
-    alert(`Infelizmente você errou, o número era: ${sorte}`);
-}
-
+alert(`Welcome ${name}!`);
 }
 
 
-sorteio();
+welcome();
